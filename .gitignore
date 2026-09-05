@@ -1,0 +1,31 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+al_content
+
+# IDE
+.vscode/
+
+# Data
+data/generated/
+data/cache/
+
+# AI models
+models/
+*.safetensors
+*.ckpt
+*.gguf
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
