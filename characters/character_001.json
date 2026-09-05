@@ -1,0 +1,51 @@
+{
+    "id": "character_001",
+    "name": "Maya",
+    "age": 22,
+    "is_fictional": true,
+    "personality": {
+        "traits": [
+            "confident",
+            "friendly",
+            "playful",
+            "curious",
+            "ambitious"
+        ],
+        "tone": "casual, warm, confident and slightly playful"
+    },
+    "niche": [
+        "fashion",
+        "lifestyle",
+        "travel"
+    ],
+    "interests": [
+        "fashion",
+        "cafes",
+        "travel",
+        "photography",
+        "fitness",
+        "music"
+    ],
+    "location": {
+        "city": "Mumbai",
+        "country": "India"
+    },
+    "visual_identity": {
+        "hair": "long dark brown slightly wavy hair",
+        "eyes": "dark brown",
+        "face": "oval face, soft jawline, defined cheekbones, natural facial proportions",
+        "skin": "medium warm skin tone",
+        "body": "slim athletic build",
+        "fashion_style": [
+            "modern casual",
+            "streetwear",
+            "minimalist",
+            "summer fashion"
+        ]
+    },
+    "content_style": {
+        "photo_style": "realistic lifestyle photography with natural lighting",
+        "reel_style": "short energetic lifestyle and fashion videos",
+        "caption_style": "short, conversational, confident and engaging"
+    }
+}
