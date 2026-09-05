@@ -50,3 +50,60 @@ class Character(Base):
         Text,
         nullable=False
     )
+
+
+from datetime import datetime
+
+from sqlalchemy import DateTime, ForeignKey
+from sqlalchemy.orm import Mapped, mapped_column
+
+
+class Content(Base):
+    __tablename__ = "content"
+
+    id: Mapped[int] = mapped_column(
+        Integer,
+        primary_key=True
+    )
+
+    character_id: Mapped[int] = mapped_column(
+        ForeignKey("characters.id"),
+        nullable=False
+    )
+
+    content_type: Mapped[str] = mapped_column(
+        String(20),
+        nullable=False
+    )
+
+    scene: Mapped[str] = mapped_column(
+        Text,
+        nullable=False
+    )
+
+    outfit: Mapped[str] = mapped_column(
+        Text,
+        nullable=False
+    )
+
+    activity: Mapped[str] = mapped_column(
+        Text,
+        nullable=False
+    )
+
+    caption: Mapped[str] = mapped_column(
+        Text,
+        nullable=False
+    )
+
+    status: Mapped[str] = mapped_column(
+        String(20),
+        default="planned",
+        nullable=False
+    )
+
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime,
+        default=datetime.utcnow,
+        nullable=False
+    )

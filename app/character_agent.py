@@ -3,8 +3,9 @@ from pathlib import Path
 
 from langchain_ollama import ChatOllama
 from langchain_core.prompts import ChatPromptTemplate
+from app.content_service import save_content_plan
 
-from dtos import ContentPlan
+from app.dtos import ContentPlan
 
 
 CHARACTER_FILE = Path("characters/character_001.json")
@@ -64,6 +65,12 @@ result = chain.invoke({
         ensure_ascii=False
     )
 })
+
+save_content_plan(
+    character_id=character["id"],
+    content_plan=result
+)
+
 
 
 for i, idea in enumerate(result.ideas, start=1):
