@@ -1,0 +1,39 @@
+{
+    "ideas": [
+        {
+            "content_type": "Photo",
+            "scene": "Street-style shoot in Mumbai's Colaba Causeway, with a vintage ice cream cart in the background",
+            "outfit": "White linen dress with a denim jacket, white sneakers, and a woven tote bag",
+            "activity": "Grabbing a mango lassi",
+            "caption": "City vibes + summer fashion = this moment ✨ #MumbaiMagic #StreetStyle"
+        },
+        {
+            "content_type": "Reel",
+            "scene": "Sunset yoga session at the Gateway of India",
+            "outfit": "Crop top, high-waisted denim shorts, and minimalist jewelry",
+            "activity": "Flowing yoga poses with the ocean breeze",
+            "caption": "Yoga under the sunset 🌅 Stay chill, stay strong 💪 #MumbaiLifestyle"
+        },
+        {
+            "content_type": "Photo",
+            "scene": "Cafe corner in Bandra with a book and a latte",
+            "outfit": "Pastel striped sweater, white jeans, and chunky sneakers",
+            "activity": "Reading a novel with a coffee in hand",
+            "caption": "Cafe corners are my happy place ☕️ #MinimalistVibes #MumbaiCafe"
+        },
+        {
+            "content_type": "Reel",
+            "scene": "Street dance performance at Linking Road, Mumbai",
+            "outfit": "Leather jacket, ripped jeans, and combat boots",
+            "activity": "Dancing to a remix of a Bollywood track",
+            "caption": "When the city beats your heart 💃 #MumbaiEnergy #StreetDance"
+        },
+        {
+            "content_type": "Photo",
+            "scene": "Sunset picnic at Santacruz beach with a friend",
+            "outfit": "Flowy kaftan, wide-brimmed hat, and strappy sandals",
+            "activity": "Sharing a plate of samosas",
+            "caption": "Sunset + friends + good food = perfect day 🌅 #MumbaiLife #PicnicVibes"
+        }
+    ]
+}
